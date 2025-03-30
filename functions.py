@@ -40,6 +40,7 @@ fig = px.choropleth(
 )
 
 app = dash.Dash(__name__)
+server = app.server
 app.title = "FIFA World Cup Dashboard"
 
 app.layout = html.Div([
